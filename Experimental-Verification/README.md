@@ -1,4 +1,4 @@
-# 🔬 Experimental Evaluation of Boomerang Cryptanalysis on LTLBC
+# 🔬 Experimental Verification of Boomerang Cryptanalysis on LTLBC
 
 This repository contains the source code for the experimental evaluation of the boomerang success probability for the lightweight block cipher **LTLBC**. The provided scripts are intended to support the findings presented in our paper, ensuring the reproducibility of the reported distinguisher probabilities.
 
