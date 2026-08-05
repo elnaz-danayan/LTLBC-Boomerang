@@ -1,2 +1,2 @@
 # LTLBC-Boomerang
-Boomerang Cryptanalysis for LTLBC Block Cipher
+Codes corresponding to the manuscript "Boomerang Attack on Reduced-Round LTLBC"
