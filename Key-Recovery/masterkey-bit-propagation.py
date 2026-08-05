@@ -147,6 +147,10 @@ if __name__ == "__main__":
         #Based on the Decryption or Encryption Path choose one of the lines below and comment the other one
         round_outputs = cipher.binary_encrypt(input_bits)
         #round_outputs = cipher.binary_decrypt(input_bits)
+
+        #in order to determine the target must be compared with the output of what round, you must change the line below. right now it is on "round_outputs[0]"
+        #which means it is comparing it to the output of round 1, change the 0 into 1 and then it will compare to the output of the second round. 
+        #to change the total number of rounds that must be generated in the first place just simply change all the 2's in the document to your desired number.
         round1 = round_outputs[0]  # "Round 1" output as string
         # Convert to integer and check bitwise AND with the target
         round1_int = int(round1, 2)
